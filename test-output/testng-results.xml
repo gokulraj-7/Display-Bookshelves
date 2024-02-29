@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T16:42:49 IST" name="Suite" finished-at="2024-02-28T16:44:34 IST" duration-ms="105577">
+    <groups>
+      <group name="regression">
+        <method signature="TC_Display_Bookshelves.display_data()[pri:3, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" name="display_data" class="testCase.TC_Display_Bookshelves"/>
+        <method signature="TC_Display_Bookshelves.menu_items()[pri:4, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" name="menu_items" class="testCase.TC_Display_Bookshelves"/>
+        <method signature="TC_Display_Bookshelves.search_Bookshelves()[pri:1, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" name="search_Bookshelves" class="testCase.TC_Display_Bookshelves"/>
+        <method signature="TC_Display_Bookshelves.select_filters()[pri:2, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" name="select_filters" class="testCase.TC_Display_Bookshelves"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_Display_Bookshelves.fill_address()[pri:6, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" name="fill_address" class="testCase.TC_Display_Bookshelves"/>
+        <method signature="TC_Display_Bookshelves.gift_card()[pri:5, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" name="gift_card" class="testCase.TC_Display_Bookshelves"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-02-28T16:42:49 IST" name="Chrome Test" finished-at="2024-02-28T16:44:34 IST" duration-ms="105577">
+      <class name="testCase.TC_Display_Bookshelves">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" started-at="2024-02-28T16:42:50 IST" name="setup" finished-at="2024-02-28T16:43:43 IST" duration-ms="53429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search_Bookshelves()[pri:1, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" started-at="2024-02-28T16:43:43 IST" name="search_Bookshelves" finished-at="2024-02-28T16:43:50 IST" duration-ms="7227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Bookshelves -->
+        <test-method signature="select_filters()[pri:2, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" started-at="2024-02-28T16:43:50 IST" name="select_filters" finished-at="2024-02-28T16:43:59 IST" duration-ms="8549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_filters -->
+        <test-method signature="display_data()[pri:3, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" started-at="2024-02-28T16:43:59 IST" name="display_data" finished-at="2024-02-28T16:44:02 IST" duration-ms="3013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display_data -->
+        <test-method signature="menu_items()[pri:4, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" started-at="2024-02-28T16:44:02 IST" name="menu_items" finished-at="2024-02-28T16:44:16 IST" duration-ms="13680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menu_items -->
+        <test-method signature="gift_card()[pri:5, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" started-at="2024-02-28T16:44:16 IST" name="gift_card" finished-at="2024-02-28T16:44:21 IST" duration-ms="5585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gift_card -->
+        <test-method signature="fill_address()[pri:6, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" started-at="2024-02-28T16:44:21 IST" name="fill_address" finished-at="2024-02-28T16:44:30 IST" duration-ms="8788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_address -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:testCase.TC_Display_Bookshelves@72d1ad2e]" started-at="2024-02-28T16:44:30 IST" name="closure" finished-at="2024-02-28T16:44:34 IST" duration-ms="4284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- testCase.TC_Display_Bookshelves -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>

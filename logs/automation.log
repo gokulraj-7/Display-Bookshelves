@@ -1,0 +1,18 @@
+16:43:43.836 [main] INFO  - Opened the URL and in the home page
+16:43:47.977 [main] INFO  - Finding search box and searching bookshelves
+16:43:54.358 [main] INFO  - Selecting category as kids bookshelves
+16:43:57.377 [main] INFO  - Setting the price range as below 15000
+16:43:58.163 [main] INFO  - Click on Exclude out of stock
+16:43:58.353 [main] INFO  - Click high to low filter
+16:43:59.505 [main] INFO  - Capturing the name and price of first three products
+16:44:00.377 [main] INFO  - Storing the values in excel
+16:44:06.533 [main] INFO  - Scroll to top of the current page
+16:44:06.564 [main] INFO  - Click on the website logo
+16:44:08.369 [main] INFO  - Hover on living header to capture the sub-headings
+16:44:16.090 [main] INFO  - Capturing the sub-headings and storing it in the excel
+16:44:16.205 [main] INFO  - Click on Gift Cards
+16:44:20.531 [main] INFO  - Scroll down to select birthday
+16:44:21.035 [main] INFO  - Select the price and date
+16:44:21.944 [main] INFO  - Filling the data in To and From form
+16:44:26.690 [main] INFO  - Giving the valid from mail id
+16:44:27.058 [main] INFO  - Submitting the form
